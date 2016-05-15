@@ -1,0 +1,13 @@
+#ifndef PARAMETERS_H
+#define PARAMETERS_H
+
+  #define GAME_PLAY_W 1000
+  #define GAME_PLAY_H 500
+  #define DRUM_START_Y (GAME_PLAY_H/3)
+  #define DRUM_START_X GAME_PLAY_W
+  #define DRUM_SIZE_X 100
+  #define DRUM_SIZE_Y 100
+  #define RIGHT_SUCCEED_BOUND (LEFT_SUCCEED_BOUND + 100)
+  #define LEFT_SUCCEED_BOUND (-1*GAME_PLAY_W/5*4)
+
+#endif // PARAMETERS_H
